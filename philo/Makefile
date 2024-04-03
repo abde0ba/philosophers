@@ -6,7 +6,7 @@
 #    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/03 07:53:39 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/04/03 09:00:23 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ HEADER= philo.h
 
 CC = cc
 
-CFLAGS= -Wall -Wextra -Werror
+CFLAGS= -Wall -Wextra -Werror -pthread
 
 RM= rm -rf
 
