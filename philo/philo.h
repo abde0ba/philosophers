@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/03 07:53:29 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/03 09:19:58 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,12 @@ typedef struct s_philo
 	int				time_to_die;
 	int				meals_num;
 }				t_philo;
+
+typedef struct s_args
+{
+	t_philo	*philos;
+	int		id;
+}			t_args;
 
 int		err_args(void);
 int		init_data(t_data *data, char **av);
