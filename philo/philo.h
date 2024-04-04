@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/03 09:19:58 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/04 00:54:27 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,6 @@ int		check_int(char **av);
 int		ft_atoi(const char *str);
 
 int		philos_init(t_data data, t_philo *philos);
+int		start(t_data data, t_philo *philos);
 
 #endif

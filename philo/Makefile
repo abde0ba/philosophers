@@ -6,7 +6,7 @@
 #    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/03 09:00:23 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/04/04 01:26:47 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,13 +20,12 @@ HEADER= philo.h
 
 CC = cc
 
-CFLAGS= -Wall -Wextra -Werror -pthread
+CFLAGS= -Wall -Wextra -Werror -pthread -fsanitize=thread
 
 RM= rm -rf
 
 $(NAME): $(OBJS)
-
-		$(CC) $(OBJS) -o $(NAME)
+		$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
 
 %.o : %.c $(HEADER)
 		$(CC) $(CFLAGS) -c $< -o $@

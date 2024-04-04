@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:17 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/03 08:04:08 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/04 01:55:15 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ int	main(int ac, char **av)
 	if (!philos)
 		return (1);
 	philos_init(data, philos);
-	printf("%d", philos[0].time_to_die);
+	start(data, philos);
+	while (1)
+		;
 	return (0);
 }
