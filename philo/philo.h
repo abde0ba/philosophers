@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: darkab <darkab@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/04 00:54:27 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/10 21:03:52 by darkab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <pthread.h>
+# include <sys/time.h>
 
 typedef struct s_data
 {
@@ -32,19 +33,29 @@ typedef struct s_philo
 {
 	pthread_t		philo;
 	int				id;
-	pthread_mutex_t	left_fork;
-	pthread_mutex_t	right_fork;
+	pthread_mutex_t	*left_fork;
+	pthread_mutex_t	*right_fork;
 	int				time_to_eat;
 	int				time_to_sleep;
 	int				time_to_die;
 	int				meals_num;
+	int				start_time;
 }				t_philo;
+
+typedef struct s_mutex
+{
+	int				num;
+	pthread_mutex_t	mutex;
+}			t_mutex;
 
 typedef struct s_args
 {
-	t_philo	*philos;
-	int		id;
+	t_philo	philo;
+	t_data	data;
+	t_mutex	*mutex;
 }			t_args;
+
+
 
 int		err_args(void);
 int		init_data(t_data *data, char **av);
@@ -52,7 +63,9 @@ char	*ft_strtrim(char const *s1, char const *set);
 int		check_int(char **av);
 int		ft_atoi(const char *str);
 
-int		philos_init(t_data data, t_philo *philos);
+int		philos_init(t_data data, t_philo *philos, t_mutex *mutex);
 int		start(t_data data, t_philo *philos);
+int		get_current_time(void);
+int		ft_usleep(size_t milliseconds);
 
 #endif

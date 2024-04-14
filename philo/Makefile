@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
+#    By: darkab <darkab@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/04 01:26:47 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/04/14 12:08:10 by darkab           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME= philo
 
-SRCS= philo.c utils.c utils1.c utils2.c philo_utils.c
+SRCS= philo.c utils.c utils1.c utils2.c philo_utils.c time.c
 
 OBJS= $(SRCS:.c=.o)
 
@@ -20,7 +20,7 @@ HEADER= philo.h
 
 CC = cc
 
-CFLAGS= -Wall -Wextra -Werror -pthread -fsanitize=thread
+CFLAGS= -Wall -Wextra -Werror -pthread 
 
 RM= rm -rf
 
