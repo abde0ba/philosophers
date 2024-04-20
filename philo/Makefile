@@ -6,7 +6,7 @@
 #    By: darkab <darkab@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/14 12:08:10 by darkab           ###   ########.fr        #
+#    Updated: 2024/04/20 13:30:33 by darkab           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ HEADER= philo.h
 
 CC = cc
 
-CFLAGS= -Wall -Wextra -Werror -pthread 
+CFLAGS= -Wall -Wextra -Werror -fsanitize=thread
 
 RM= rm -rf
 

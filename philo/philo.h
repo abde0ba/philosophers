@@ -6,7 +6,7 @@
 /*   By: darkab <darkab@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/10 21:03:52 by darkab           ###   ########.fr       */
+/*   Updated: 2024/04/20 13:24:25 by darkab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ typedef struct s_data
 	int	time_to_eat;
 	int	time_to_sleep;
 	int	number_of_meals;
+	pthread_mutex_t	print_m;
+	pthread_mutex_t	lock_m;
 }				t_data;
 
 typedef struct s_philo
@@ -39,7 +41,15 @@ typedef struct s_philo
 	int				time_to_sleep;
 	int				time_to_die;
 	int				meals_num;
+	int				last_time_meal;
 	int				start_time;
+	int				dead;
+	int				eating;
+	pthread_mutex_t	eat_m;
+	pthread_mutex_t	death_m;
+	pthread_mutex_t	*print_m;
+	pthread_mutex_t	*lock_m;
+
 }				t_philo;
 
 typedef struct s_mutex

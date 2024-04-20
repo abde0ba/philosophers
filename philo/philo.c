@@ -6,7 +6,7 @@
 /*   By: darkab <darkab@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:17 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/09 14:43:30 by darkab           ###   ########.fr       */
+/*   Updated: 2024/04/19 21:02:17 by darkab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int	main(int ac, char **av)
 	if (!philos || !mutex)
 		return (free(philos), free(mutex), 1);
 	philos_init(data, philos, mutex);
-	start(data, philos);
+	if (start(data, philos) == 1)
+		return (free(philos), free(mutex), 0);
 	return (0);
 }
