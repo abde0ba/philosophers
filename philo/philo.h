@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/23 08:01:24 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:19:51 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ typedef struct s_data
 	int	finished;
 	pthread_mutex_t	print_m;
 	pthread_mutex_t	lock_m;
-	pthread_mutex_t	death_m;
+	pthread_mutex_t	meals_check;
 }				t_data;
 
 typedef struct s_philo
@@ -50,7 +50,7 @@ typedef struct s_philo
 	int				dead;
 	int				eating;
 	pthread_mutex_t	eat_m;
-	pthread_mutex_t	*death_m;
+	pthread_mutex_t	*meals_check;
 	pthread_mutex_t	*print_m;
 	pthread_mutex_t	lock_m;
 	t_data			*data;

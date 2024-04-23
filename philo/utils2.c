@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 23:31:52 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/23 08:40:23 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/23 08:52:42 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int	check_int(char **av)
 			free(num);
 			return (0);
 		}
+		free(num);
 		i++;
 	}
 	return (1);

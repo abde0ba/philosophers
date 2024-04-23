@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 07:50:06 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/23 08:25:48 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:35:08 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,10 +71,10 @@ void	eat(t_philo *philo)
 	philo->meals_num++;
 	philo->last_time_meal = get_current_time();
 	pthread_mutex_unlock(&philo->lock_m);
-	pthread_mutex_lock(philo->death_m);
+	pthread_mutex_lock(philo->meals_check);
 	if (philo->meals_limit > -1 && philo->meals_limit == philo->meals_num)
 		philo->data->finished++;
-	pthread_mutex_unlock(philo->death_m);
+	pthread_mutex_unlock(philo->meals_check);
 	ft_usleep(philo->time_to_eat);
 	put_forks(philo);
 }
@@ -123,13 +123,13 @@ int	program_monitoring(t_data *data, t_philo *philos)
 		num = 0;
 		while (i < data->philos_number)
 		{	
-			pthread_mutex_lock(philos[i].death_m);
+			pthread_mutex_lock(philos[i].meals_check);
 			if (data->finished == data->philos_number)
 			{
-				pthread_mutex_unlock(philos[i].death_m);
+				pthread_mutex_unlock(philos[i].meals_check);
 				return (0);
 			}
-			pthread_mutex_unlock(philos[i].death_m);
+			pthread_mutex_unlock(philos[i].meals_check);
 			pthread_mutex_lock(&philos[i].lock_m);
 			if (philos[i].time_to_die < get_current_time() - philos[i].last_time_meal)
 			{
@@ -154,6 +154,7 @@ int	mutex_destroy_all(t_data *data, t_philo *philos)
 	while (i < data->philos_number)
 	{
 		pthread_mutex_destroy(&philos[i].eat_m);
+		pthread_mutex_destroy(&philos[i].lock_m);
 		if (pthread_mutex_destroy(philos[i].left_fork) != 0)
 		{
 			pthread_mutex_unlock(philos[i].left_fork);
@@ -166,6 +167,9 @@ int	mutex_destroy_all(t_data *data, t_philo *philos)
 		}
 		i++;
 	}
+	pthread_mutex_destroy(&data->print_m);
+	pthread_mutex_destroy(&data->lock_m);
+	pthread_mutex_destroy(&data->meals_check);
 	return (1);
 }
 
@@ -177,7 +181,6 @@ int	start(t_data *data, t_philo *philos)
 	id = 0;
 	while (id < data->philos_number)
 	{
-		// atexit(fn);
 		if (pthread_create(&philos[id].philo, NULL, &routine, (void *)&philos[id]) != 0)
 			printf("thread N %d failed in creation\n", id + 1);
 		id++;
@@ -200,12 +203,10 @@ int	start(t_data *data, t_philo *philos)
 int	philos_init(t_data *data, t_philo *philos, t_mutex *mutex)
 {
 	int	id;
-	// int	*last_meal;
 
-	// last_meal = malloc(data->philos_number * sizeof(int));
 	pthread_mutex_init(&data->lock_m, NULL);
 	pthread_mutex_init(&data->print_m, NULL);
-	pthread_mutex_init(&data->death_m, NULL);
+	pthread_mutex_init(&data->meals_check, NULL);
 	id = 0;
 	while (id < data->philos_number)
 	{
@@ -219,13 +220,10 @@ int	philos_init(t_data *data, t_philo *philos, t_mutex *mutex)
 		philos[id].dead = 0;
 		philos[id].eating = 0;
 		philos[id].print_m = &(data->print_m);
-		philos[id].death_m = &(data->death_m);
+		philos[id].meals_check = &(data->meals_check);
 		philos[id].data = data;
 		pthread_mutex_init(&philos[id].eat_m, NULL);
 		pthread_mutex_init(&philos[id].lock_m, NULL);
-		// philos[id]->last_time_meal = *((int *)malloc(sizeof(int)));
-		// last_meal[id] = get_current_time();
-		// philos[id].last_time_meal = &last_meal[id];
 		philos[id].last_time_meal = get_current_time();
 		if (pthread_mutex_init(&mutex[id].mutex, NULL) != 0)
 		{
