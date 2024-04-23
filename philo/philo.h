@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/23 10:19:51 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/23 20:01:40 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,5 +82,8 @@ int		philos_init(t_data *data, t_philo *philos, t_mutex *mutex);
 int		start(t_data *data, t_philo *philos);
 int		get_current_time(void);
 int		ft_usleep(size_t milliseconds);
+int		init_mutex_data(t_data *data);
+int		init_mutex_philos(t_philo *philos, t_mutex *mutex);
+int		mutex_destroy_philos(t_philo *philos, int id, t_mutex *mutex);
 
 #endif

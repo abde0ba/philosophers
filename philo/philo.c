@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:17 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/23 10:39:07 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/23 15:39:14 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,8 @@ int	main(int ac, char **av)
 	mutex = malloc(data->philos_number * sizeof(t_mutex));
 	if (!philos || !mutex)
 		return (free(philos), free(mutex), 1);
-	philos_init(data, philos, mutex);
+	if (philos_init(data, philos, mutex) != 0)
+		return (free(philos), free(mutex), 1);
 	if (start(data, philos) == 1)
 		return (free(philos), free(mutex), free(data), 0);
 	return (0);
