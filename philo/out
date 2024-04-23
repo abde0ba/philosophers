@@ -1,0 +1,2828 @@
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:44.305 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:45.162 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:46.016 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:46.873 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:47.731 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:48.596 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:49.458 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:50.315 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:51.170 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:52.022 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:52.879 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:53.732 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [38797]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x100502000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:30:54.583 +0100
+Launch Time:     2024-04-23 08:30:29.388 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 38797: 164 nodes malloced for 13 KB
+Process 38797: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fd7bcc059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:54.074 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:54.932 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:55.791 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:56.663 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:57.536 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:58.408 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:34:59.265 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:35:00.125 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:35:00.989 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:35:01.845 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [40714]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1074cc000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:35:02.707 +0100
+Launch Time:     2024-04-23 08:34:53.705 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 40714: 164 nodes malloced for 13 KB
+Process 40714: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7f8c5f4059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:50.966 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 164 nodes malloced for 13 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:51.828 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 164 nodes malloced for 13 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:52.689 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 164 nodes malloced for 13 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:53.542 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 164 nodes malloced for 13 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:54.393 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 164 nodes malloced for 13 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:55.243 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:56.090 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:56.952 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:57.811 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:58.664 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:36:59.524 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:00.381 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:01.238 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:02.096 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:02.954 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:03.810 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:04.662 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:05.522 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:06.381 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:07.238 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:08.086 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:08.931 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:09.782 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:10.647 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:11.503 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:12.357 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:13.211 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:14.063 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:14.913 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:15.762 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:16.621 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:17.476 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:18.326 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:19.174 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:20.040 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:20.901 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:21.761 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:22.619 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:23.478 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:24.330 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:25.187 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:26.046 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:26.902 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:27.762 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:28.619 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:29.468 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:30.320 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:31.175 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:32.028 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:32.886 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:33.748 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:34.613 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:35.474 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:36.319 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:37.163 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:38.016 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:38.876 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:39.732 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:40.582 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:41.432 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [41667]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x10c978000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:37:42.292 +0100
+Launch Time:     2024-04-23 08:36:50.196 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 41667: 162 nodes malloced for 12 KB
+Process 41667: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fc592405980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fc592405990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fc5924059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:21.184 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:22.039 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:22.890 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:23.746 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:24.597 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:25.451 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:26.305 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:27.167 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 164 nodes malloced for 13 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:28.017 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:28.865 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:29.710 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:30.559 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:31.405 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:32.247 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:33.090 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+
+Process:         philo [42090]
+Path:            /Volumes/VOLUME/*/philo
+Load Address:    0x1038de000
+Identifier:      philo
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  zsh [34214]
+
+Date/Time:       2024-04-23 08:38:33.935 +0100
+Launch Time:     2024-04-23 08:38:10.178 +0100
+OS Version:      Mac OS X 10.15.7 (19H2026)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 12.4 (12D4e)
+----
+
+leaks Report Version: 4.0
+Process 42090: 162 nodes malloced for 12 KB
+Process 42090: 5 leaks for 80 total leaked bytes.
+
+    5 (80 bytes) << TOTAL >>
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05980 [16]  length: 7  "./philo"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c05990 [16]  length: 1  "4"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059a0 [16]  length: 3  "410"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059b0 [16]  length: 3  "200"
+      1 (16 bytes) ROOT LEAK: 0x7fed24c059c0 [16]  length: 3  "200"
+

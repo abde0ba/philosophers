@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: darkab <darkab@student.42.fr>              +#+  +:+       +#+         #
+#    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/20 13:30:33 by darkab           ###   ########.fr        #
+#    Updated: 2024/04/23 08:26:24 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ HEADER= philo.h
 
 CC = cc
 
-CFLAGS= -Wall -Wextra -Werror -fsanitize=thread
+CFLAGS= -Wall -Wextra -Werror
 
 RM= rm -rf
 

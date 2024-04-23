@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   time.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/22 14:32:38 by abbaraka          #+#    #+#             */
+/*   Updated: 2024/04/22 14:32:39 by abbaraka         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 int	get_current_time(void)
@@ -14,7 +26,11 @@ int	ft_usleep(size_t milliseconds)
 	size_t	start;
 
 	start = get_current_time();
-	while ((get_current_time() - start) < milliseconds)
-		usleep(500);
+	while (1)
+	{
+		if ((get_current_time() - start) >= milliseconds)
+			break ;
+		usleep(100);
+	}
 	return (0);
 }

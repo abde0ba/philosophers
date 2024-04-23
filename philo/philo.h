@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: darkab <darkab@student.42.fr>              +#+  +:+       +#+        */
+/*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/20 13:24:25 by darkab           ###   ########.fr       */
+/*   Updated: 2024/04/23 08:01:24 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,11 @@ typedef struct s_data
 	int	time_to_eat;
 	int	time_to_sleep;
 	int	number_of_meals;
+	int	dead;
+	int	finished;
 	pthread_mutex_t	print_m;
 	pthread_mutex_t	lock_m;
+	pthread_mutex_t	death_m;
 }				t_data;
 
 typedef struct s_philo
@@ -41,14 +44,16 @@ typedef struct s_philo
 	int				time_to_sleep;
 	int				time_to_die;
 	int				meals_num;
+	int				meals_limit;
 	int				last_time_meal;
 	int				start_time;
 	int				dead;
 	int				eating;
 	pthread_mutex_t	eat_m;
-	pthread_mutex_t	death_m;
+	pthread_mutex_t	*death_m;
 	pthread_mutex_t	*print_m;
-	pthread_mutex_t	*lock_m;
+	pthread_mutex_t	lock_m;
+	t_data			*data;
 
 }				t_philo;
 
@@ -73,8 +78,8 @@ char	*ft_strtrim(char const *s1, char const *set);
 int		check_int(char **av);
 int		ft_atoi(const char *str);
 
-int		philos_init(t_data data, t_philo *philos, t_mutex *mutex);
-int		start(t_data data, t_philo *philos);
+int		philos_init(t_data *data, t_philo *philos, t_mutex *mutex);
+int		start(t_data *data, t_philo *philos);
 int		get_current_time(void);
 int		ft_usleep(size_t milliseconds);
 

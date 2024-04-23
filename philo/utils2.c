@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 23:31:52 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/03 07:36:24 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/23 08:40:23 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,10 @@ int	check_int(char **av)
 	{
 		num = ft_strtrim(av[i], " ");
 		if (ft_atoi(num) == -1)
+		{
+			free(num);
 			return (0);
+		}
 		i++;
 	}
 	return (1);
