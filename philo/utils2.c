@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 23:31:52 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/24 09:02:30 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/24 15:05:20 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int	check_int(char **av)
 void	print_msg(t_philo *philo, char *msg)
 {
 	pthread_mutex_lock(philo->print_m);
-	printf("%d %d %s\n", get_current_time() - philo->start_time, philo->id, msg);
+	printf("%d %d %s\n", get_current_time() \
+	- philo->start_time, philo->id, msg);
 	pthread_mutex_unlock(philo->print_m);
 }

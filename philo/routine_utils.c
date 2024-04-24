@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 08:55:35 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/24 09:01:50 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/24 10:22:25 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ void	eat(t_philo *philo)
 	take_forks(philo);
 	print_msg(philo, "is eating");
 	pthread_mutex_lock(&philo->lock_m);
-	philo->eating = 1;
 	philo->meals_num++;
 	philo->last_time_meal = get_current_time();
 	pthread_mutex_unlock(&philo->lock_m);

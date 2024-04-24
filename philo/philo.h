@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/24 09:02:40 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/24 14:56:40 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,13 +22,12 @@
 
 typedef struct s_data
 {
-	int	philos_number;
-	int	time_to_die;
-	int	time_to_eat;
-	int	time_to_sleep;
-	int	number_of_meals;
-	int	dead;
-	int	finished;
+	int				philos_number;
+	int				time_to_die;
+	int				time_to_eat;
+	int				time_to_sleep;
+	int				number_of_meals;
+	int				finished;
 	pthread_mutex_t	print_m;
 	pthread_mutex_t	lock_m;
 	pthread_mutex_t	meals_check;
@@ -47,9 +46,6 @@ typedef struct s_philo
 	int				meals_limit;
 	int				last_time_meal;
 	int				start_time;
-	int				dead;
-	int				eating;
-	pthread_mutex_t	eat_m;
 	pthread_mutex_t	*meals_check;
 	pthread_mutex_t	*print_m;
 	pthread_mutex_t	lock_m;
@@ -62,15 +58,6 @@ typedef struct s_mutex
 	int				num;
 	pthread_mutex_t	mutex;
 }			t_mutex;
-
-typedef struct s_args
-{
-	t_philo	philo;
-	t_data	data;
-	t_mutex	*mutex;
-}			t_args;
-
-
 
 int		err_args(void);
 int		init_data(t_data *data, char **av);
