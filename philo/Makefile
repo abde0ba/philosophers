@@ -6,13 +6,13 @@
 #    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/23 19:48:16 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/04/24 09:03:29 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME= philo
 
-SRCS= philo.c utils.c utils1.c utils2.c philo_utils.c time.c
+SRCS= philo.c utils.c utils1.c utils2.c philo_utils.c time.c mutex.c routine_utils.c
 
 OBJS= $(SRCS:.c=.o)
 
