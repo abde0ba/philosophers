@@ -6,21 +6,21 @@
 #    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/24 15:45:58 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/04/24 09:08:20 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME= philo
+NAME= philo_bonus
 
-SRCS= philo.c utils.c utils1.c utils2.c philo_utils.c time.c mutex.c routine_utils.c
+SRCS= mutex_bonus.c philo_bonus.c philo_utils_bonus.c routine_utils_bonus.c time_bonus.c utils1_bonus.c utils2_bonus.c utils_bonus.c
 
 OBJS= $(SRCS:.c=.o)
 
-HEADER= philo.h
+HEADER= philo_bonus.h
 
 CC = cc
 
-CFLAGS= -Wall -Wextra -Werror -g 
+CFLAGS= -Wall -Wextra -Werror
 
 RM= rm -rf
 

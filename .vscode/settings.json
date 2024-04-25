@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"__mutex_base": "c",
+		"pthread.h": "c",
+		"philo.h": "c",
+		"philo_bonus.h": "c",
+		"__locale": "c",
+		"locale": "c",
+		"signal.h": "c"
+	}
+}

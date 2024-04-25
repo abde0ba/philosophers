@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   utils_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:18:24 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/24 16:23:49 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/24 10:17:41 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philo_bonus.h"
 
 int	err_args(void)
 {
@@ -105,8 +105,6 @@ int	init_data(t_data *data, char **av)
 		return (0);
 	num = ft_strtrim(av[1], " ");
 	data->philos_number = ft_atoi(num);
-	if (data->philos_number < 1)
-		return (0);
 	free(num);
 	num = ft_strtrim(av[2], " ");
 	data->time_to_die = ft_atoi(num);
