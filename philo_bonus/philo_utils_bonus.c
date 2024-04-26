@@ -12,50 +12,57 @@
 
 #include "philo_bonus.h"
 
-int	program_monitoring(t_philo *philo)
+void	*program_monitoring(void *arg)
 {
 	int	i;
+	t_philo *philo;
+
+	philo = (t_philo *)arg;
 
 	while (1)
 	{
-			// sem_wait(philos[i].meals_check);
-			// if (data->finished == data->philos_number)
+			// sem_wait(philo->death);
+			// sem_wait(philo->meals_check);
+			// if (philo->data->finished == philo->data->philos_number)
 			// {
+			// 	sem_post(philo->meals_check);
+			// 	sem_unlink("/forks_sem");
+			// 	sem_unlink("/lock_sem");
+			// 	sem_unlink("/meals_check");
+			// 	sem_unlink("/print_sem");
 			// 	i = 0;
-			// 	sem_post(philos[i].meals_check);
-			// 	// while (i < data->philos_number)
-			// 	// {
-			// 	// 	kill(philos[i].philo, SIGTERM);
-			// 	// 	i++;
-			// 	// }
-			// 	return (0);
+			// 	while (i < philo->data->philos_number)
+			// 	{
+			// 		if (philo->id != i + 1)
+			// 			kill(philo->data->philos[i].philo, SIGTERM);
+			// 		i++;
+			// 	}
+				
+			// 	return (NULL);
 			// }
-			// sem_post(philos[i].meals_check);
+			// sem_post(philo->meals_check);
 			sem_wait(philo->lock_sem);
 			if (philo->time_to_die < get_current_time() - philo->last_time_meal)
 			{
-				sem_wait(philo->print_m);
-				printf("%d %d died\n", get_current_time() - philo->start_time, philo->id);
-				printf("%d %d died time to die is %d\n", get_current_time() - philo->start_time, philo->id, get_current_time() - philo->last_time_meal);
-				sem_post(philo->lock_sem);
+				sem_wait(philo->data->print_sem);
 				sem_post(philo->meals_check);
+				printf("%d %d died\n", get_current_time() - philo->start_time, philo->id);
+				sem_post(philo->death);
 				i = 0;
-				while (i < philo->data->philos_number)
-				{
-					kill(philo->data->philos[i].philo, SIGTERM);
-					i++;
-				}
-				return (0);
+				return (NULL);
 			}
 			sem_post(philo->lock_sem);
 	}
-	return (0);
+	return (NULL);
 }
 
 int routine(t_philo *philo)
 {
-	if (philo->id % 2 == 0)
-		usleep(philo->time_to_eat);
+	pthread_t	monitor;
+
+	pthread_create(&monitor, NULL, &program_monitoring, (void *)philo);
+	pthread_detach(monitor);
+
 	while (1)
 	{
 		// if (philo->meals_limit > -1 && philo->meals_limit <= philo->meals_num)
@@ -63,7 +70,7 @@ int routine(t_philo *philo)
 		eat(philo);
 		philo_sleep(philo);
 		philo_think(philo);
-		program_monitoring(philo);
+
 		// if (program_monitoring(philo) == 0)
 		// 	return (0);
 	}
@@ -75,6 +82,12 @@ int routine(t_philo *philo)
 int	start(t_data *data, t_philo *philos)
 {
 	int		id;
+
+	sem_unlink("/forks_sem");
+	sem_unlink("/lock_sem");
+	sem_unlink("/meals_check");
+	sem_unlink("/print_sem");
+	sem_unlink("/death");
 
 	// program_monitoring(data, philos);
 	while (data->philo_init < data->philos_number)
@@ -93,11 +106,20 @@ int	start(t_data *data, t_philo *philos)
 	// 	return (1);
 	// }
 	id = 0;
+	// while (1)
+	// {
+	sem_wait(philos[id].death);
+	sem_unlink("/forks_sem");
+	sem_unlink("/lock_sem");
+	sem_unlink("/meals_check");
+	sem_unlink("/print_sem");
+	id = 0;
 	while (id < data->philos_number)
 	{
-		waitpid(philos[id].philo, NULL, 0);
+		kill(philos[id].philo, SIGTERM);
 		id++;
 	}
+	// }
 	return (1);
 }
 
@@ -114,6 +136,7 @@ int	init_each_philo(t_data *data, t_philo *philos, int id, sem_t *forks_sem)
 	philos[id].data = data;
 	philos[id].last_time_meal = get_current_time();
 	philos[id].forks = forks_sem;
+	philos[id].death = data->death;
 	return (0);
 }
 

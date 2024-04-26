@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 08:53:20 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/25 15:29:08 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/26 17:47:12 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,17 @@
 
 int	init_sem_data(t_data *data)
 {
-	data->print_sem = sem_open("/print_semem", O_CREAT, 0644, 1);
+	data->lock_s = sem_open("/lock_sem", O_CREAT, 0644, 1);
+	data->print_sem = sem_open("/print_sem", O_CREAT, 0644, 1);
 	data->meals_check = sem_open("/meals_check", O_CREAT, 0644, 1);
+	data->death = sem_open("/death", O_CREAT, 0644, 0);
 	return (0);
 }
 
 int	init_sem_philos(t_philo *philo)
 {
-	philo->lock_sem = sem_open("/lock_sem", O_CREAT, 0644, 1);
+	philo->lock_sem = sem_open("/lock_sema", O_CREAT, 0644, 1);
+
 	return (0);
 }
 

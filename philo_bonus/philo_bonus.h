@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/25 17:50:17 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/25 21:26:46 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ typedef struct s_data
 	sem_t	*print_sem;
 	sem_t	*lock_s;
 	sem_t	*meals_check;
+	sem_t	*death;
 }				t_data;
 
 typedef struct s_philo
@@ -60,6 +61,7 @@ typedef struct s_philo
 	sem_t	*meals_check;
 	sem_t	*print_m;
 	sem_t	*lock_sem;
+	sem_t	*death;
 	t_data			*data;
 
 }				t_philo;
