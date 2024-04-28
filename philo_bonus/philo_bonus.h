@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/27 21:16:01 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/28 18:08:59 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,11 +43,11 @@ typedef struct s_data
 	sem_t	*lock_s;
 	sem_t	*meals_check;
 	sem_t	*death;
+	sem_t	*ready;
 }				t_data;
 
 typedef struct s_philo
 {
-	pthread_t	thread;
 	pid_t		philo;
 	int				id;
 	sem_t		*forks;
@@ -102,7 +102,8 @@ int		init_sem_philos(t_philo *philos);
 int		mutex_destroy_all(t_data *data, t_philo *philos);
 
 // 		ROUTINE UTILS	//
-
+void	take_forks(t_philo *philo);
+void	put_forks(t_philo *philo);
 void	eat(t_philo *philo);
 void	philo_sleep(t_philo *philo);
 void	philo_think(t_philo *philo);
