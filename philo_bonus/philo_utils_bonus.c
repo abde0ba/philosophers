@@ -56,72 +56,109 @@ void	*program_monitoring(void *arg)
 	return (NULL);
 }
 
-int routine(t_philo *philo)
+void	*routine(void *arg)
 {
 	pthread_t	monitor;
+	t_philo		*philo;
 
-	pthread_create(&monitor, NULL, &program_monitoring, (void *)philo);
-	pthread_detach(monitor);
-
-	while (1)
+	philo = (t_philo *)arg;
+	philo->philo = fork();
+	if (!philo->philo)
 	{
-		// if (philo->meals_limit > -1 && philo->meals_limit <= philo->meals_num)
-		// 	return (0);
-		eat(philo);
-		philo_sleep(philo);
-		philo_think(philo);
+		pthread_create(&monitor, NULL, &program_monitoring, (void *)philo);
+		pthread_detach(monitor);
+		while (1)
+		{
+			// if (philo->meals_limit > -1 && philo->meals_limit <= philo->meals_num)
+			// 	return (0);
+			eat(philo);
+			philo_sleep(philo);
+			philo_think(philo);
 
-		// if (program_monitoring(philo) == 0)
-		// 	return (0);
+			// if (program_monitoring(philo) == 0)
+			// 	return (0);
+		}
+		exit(1);
 	}
+	waitpid(philo->philo, 0, 0);
 	return (0);
 }
 
 
-
 int	start(t_data *data, t_philo *philos)
 {
-	int		id;
+	// int		id;
 
-	sem_unlink("/forks_sem");
-	sem_unlink("/lock_sem");
-	sem_unlink("/meals_check");
-	sem_unlink("/print_sem");
-	sem_unlink("/death");
-
-	// program_monitoring(data, philos);
+	// sem_unlink("/forks_sem");
+	// sem_unlink("/lock_sem");
+	// sem_unlink("/meals_check");
+	// sem_unlink("/print_sem");
+	// sem_unlink("/death");
+	data->philo_init = 0;
 	while (data->philo_init < data->philos_number)
 	{
-		philos[data->philo_init].philo = fork();
-		if (philos[data->philo_init].philo == -1)
-			printf("child process N %d failed in creation\n", data->philo_init + 1);
-		if (philos[data->philo_init].philo == 0)
-			if (routine(&philos[data->philo_init]) == 0)
-				return (1);
+		if (pthread_create(&philos[data->philo_init].thread, NULL, \
+		&routine, (void *)&philos[data->philo_init]) != 0)
+			printf("thread N %d failed in creation\n", data->philo_init + 1);
 		data->philo_init++;
 	}
- 	// if (program_monitoring(data, philos) == 0)
-	// {
-	// 	mutex_destroy_all(data, philos);
-	// 	return (1);
-	// }
-	id = 0;
-	// while (1)
-	// {
-	sem_wait(philos[id].death);
-	sem_unlink("/forks_sem");
-	sem_unlink("/lock_sem");
-	sem_unlink("/meals_check");
-	sem_unlink("/print_sem");
-	id = 0;
-	while (id < data->philos_number)
+	data->philo_init = 0;
+	while (data->philo_init < data->philos_number)
 	{
-		kill(philos[id].philo, SIGTERM);
-		id++;
+		if (pthread_detach(philos[data->philo_init].thread) != 0)
+			printf("thread N %d failed in joining\n", data->philo_init + 1);
+		data->philo_init++;
 	}
-	// }
+	// mutex_destroy_all(data, philos);
 	return (1);
 }
+
+
+
+
+// int	start(t_data *data, t_philo *philos)
+// {
+// 	int		id;
+
+// 	sem_unlink("/forks_sem");
+// 	sem_unlink("/lock_sem");
+// 	sem_unlink("/meals_check");
+// 	sem_unlink("/print_sem");
+// 	sem_unlink("/death");
+
+// 	// program_monitoring(data, philos);
+// 	while (data->philo_init < data->philos_number)
+// 	{
+// 		philos[data->philo_init].philo = fork();
+// 		if (philos[data->philo_init].philo == -1)
+// 			printf("child process N %d failed in creation\n", data->philo_init + 1);
+// 		if (philos[data->philo_init].philo == 0)
+// 			if (routine(&philos[data->philo_init]) == 0)
+// 				return (1);
+// 		data->philo_init++;
+// 	}
+//  	// if (program_monitoring(data, philos) == 0)
+// 	// {
+// 	// 	mutex_destroy_all(data, philos);
+// 	// 	return (1);
+// 	// }
+// 	id = 0;
+// 	// while (1)
+// 	// {
+// 	sem_wait(philos[id].death);
+// 	sem_unlink("/forks_sem");
+// 	sem_unlink("/lock_sem");
+// 	sem_unlink("/meals_check");
+// 	sem_unlink("/print_sem");
+// 	id = 0;
+// 	while (id < data->philos_number)
+// 	{
+// 		kill(philos[id].philo, SIGTERM);
+// 		id++;
+// 	}
+// 	// }
+// 	return (1);
+// }
 
 int	init_each_philo(t_data *data, t_philo *philos, int id, sem_t *forks_sem)
 {

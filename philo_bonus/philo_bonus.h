@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/25 21:26:46 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/04/27 21:16:01 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ typedef struct s_data
 
 typedef struct s_philo
 {
+	pthread_t	thread;
 	pid_t		philo;
 	int				id;
 	sem_t		*forks;
