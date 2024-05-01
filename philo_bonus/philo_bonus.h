@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   philo_bonus.h                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/28 18:08:59 by abbaraka         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef PHILO_BONUS_H
 
 # define PHILO_BONUS_H
@@ -43,26 +31,28 @@ typedef struct s_data
 	sem_t	*lock_s;
 	sem_t	*meals_check;
 	sem_t	*death;
-	sem_t	*ready;
+	sem_t	*limit;
 }				t_data;
 
 typedef struct s_philo
 {
+	pthread_t	thread;
 	pid_t		philo;
 	int				id;
 	sem_t		*forks;
 	int				time_to_eat;
 	int				time_to_sleep;
-	int				time_to_die;
+	size_t				time_to_die;
 	int				meals_num;
 	int				meals_limit;
-	int				last_time_meal;
-	int				start_time;
+	size_t			last_time_meal;
+	size_t			start_time;
 	int				eating;
 	sem_t	*meals_check;
 	sem_t	*print_m;
 	sem_t	*lock_sem;
 	sem_t	*death;
+	sem_t	*limit;
 	t_data			*data;
 
 }				t_philo;
@@ -73,14 +63,6 @@ typedef struct s_mutex
 	pthread_mutex_t	mutex;
 }			t_mutex;
 
-typedef struct s_args
-{
-	t_philo	philo;
-	t_data	data;
-	t_mutex	*mutex;
-}			t_args;
-
-
 
 int		err_args(void);
 int		init_data(t_data *data, char **av);
@@ -90,20 +72,15 @@ int		ft_atoi(const char *str);
 
 int		philos_init(t_data *data, t_philo *philos, sem_t *forks_sem);
 int		start(t_data *data, t_philo *philos);
-int		get_current_time(void);
-int		ft_usleep(size_t milliseconds);
+size_t	get_current_time(void);
+size_t	ft_usleep(size_t milliseconds);
 void	print_msg(t_philo *philo, char *msg);
 
-// 		MUTEX UTILS		 //
-
+// 		SEMAPHORE UTILS		 //
 int		init_sem_data(t_data *data);
-int		init_sem_philos(t_philo *philos);
-// int		mutex_destroy_philos(t_philo *philos, int id);
-int		mutex_destroy_all(t_data *data, t_philo *philos);
-
+void	destroy_semaphore_and_end_program(t_data *data);
 // 		ROUTINE UTILS	//
-void	take_forks(t_philo *philo);
-void	put_forks(t_philo *philo);
+
 void	eat(t_philo *philo);
 void	philo_sleep(t_philo *philo);
 void	philo_think(t_philo *philo);

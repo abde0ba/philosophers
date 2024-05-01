@@ -1,23 +1,15 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   philo_bonus.c                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/31 02:08:17 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/28 18:09:05 by abbaraka         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "philo_bonus.h"
 
-int	main(int ac, char **av)
+int main(int ac, char **av)
 {
 	t_data	*data;
 	t_philo	*philos;
 	sem_t	*forks_sem;
 
+	sem_unlink("/forks_sem");
+	sem_unlink("/lock_sem");
+	sem_unlink("/meals_check");
+	sem_unlink("/print_sem");
 	data = malloc(sizeof(t_data));
 	data->number_of_meals = -1;
 	data->finished = 0;
@@ -34,10 +26,5 @@ int	main(int ac, char **av)
 		return (free(philos), 1);
 	data->philos = philos;
 	start(data, philos);
-	sem_unlink("/forks_sem");
-	sem_unlink("/lock_sem");
-	sem_unlink("/meals_check");
-	sem_unlink("/print_sem");
-		// return (free(philos), free(data), 0);
 	return (0);
 }

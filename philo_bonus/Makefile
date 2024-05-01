@@ -1,18 +1,6 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/04/26 17:41:13 by abbaraka         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME= philo_bonus
 
-SRCS= mutex_bonus.c philo_bonus.c philo_utils_bonus.c routine_utils_bonus.c time_bonus.c utils1_bonus.c utils2_bonus.c utils_bonus.c
+SRCS= philo_bonus.c utils_bonus.c utils1_bonus.c utils2_bonus.c init_bonus.c start_bonus.c routine_utils_bonus.c time_bonus.c
 
 OBJS= $(SRCS:.c=.o)
 

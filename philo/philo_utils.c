@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 07:50:06 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/24 15:04:25 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/01 15:19:37 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ void	*routine(void *args)
 
 	philo = (t_philo *)args;
 	if (philo->id % 2 == 0)
-		usleep(philo->time_to_eat);
+		ft_usleep(philo->time_to_eat);
 	while (1)
 	{
-		if (philo->meals_limit > -1 && philo->meals_limit <= philo->meals_num)
+		if ((philo->meals_limit > -1 && philo->meals_limit == philo->meals_num) || philo->meals_limit == 0)
 			return (args);
 		eat(philo);
 		philo_sleep(philo);
@@ -41,8 +41,8 @@ int	program_monitoring(t_data *data, t_philo *philos)
 		while (i < data->philos_number)
 		{
 			pthread_mutex_lock(philos[i].meals_check);
-			if (data->finished == data->philos_number)
-				return (pthread_mutex_unlock(philos[i].meals_check), 0);
+			if (data->finished == data->philos_number || philos[i].meals_limit == 0)
+				return (pthread_mutex_lock(philos[i].print_m), 0);
 			pthread_mutex_unlock(philos[i].meals_check);
 			pthread_mutex_lock(&philos[i].lock_m);
 			time = get_current_time();
