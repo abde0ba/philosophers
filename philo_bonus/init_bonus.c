@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:54:36 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/30 16:19:26 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/03 10:37:19 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,22 @@
 int	init_sem_data(t_data *data)
 {
 	data->lock_s = sem_open("/lock_sem", O_CREAT, 0644, 1);
+	if (data->lock_s == (sem_t *)SEM_FAILED)
+		return (1);
 	data->print_sem = sem_open("/print_sem", O_CREAT, 0644, 1);
+	if (data->print_sem == (sem_t *)SEM_FAILED)
+		return (sem_close(data->lock_s), 1);
 	data->meals_check = sem_open("/meals_check", O_CREAT, 0644, 1);
+	if (data->meals_check == (sem_t *)SEM_FAILED)
+		return (sem_close(data->print_sem), sem_close(data->lock_s), 1);
 	data->death = sem_open("/death", O_CREAT, 0644, 0);
+	if (data->death == (sem_t *)SEM_FAILED)
+		return (sem_close(data->print_sem), sem_close(data->lock_s),
+			sem_close(data->meals_check), 1);
 	data->limit = sem_open("/limit", O_CREAT, 0644, 0);
+	if (data->limit == (sem_t *)SEM_FAILED)
+		return (sem_close(data->print_sem), sem_close(data->lock_s),
+			sem_close(data->meals_check), sem_close(data->death), 1);
 	return (0);
 }
 
@@ -56,6 +68,7 @@ int	philos_init(t_data *data, t_philo *philos, sem_t *forks_sem)
 	}
 	return (0);
 }
+
 void	destroy_semaphore_and_end_program(t_data *data)
 {
 	int	id;

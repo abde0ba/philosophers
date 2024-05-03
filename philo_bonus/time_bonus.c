@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 14:32:38 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/29 10:01:49 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/03 10:33:34 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,6 @@ size_t	ft_usleep(size_t milliseconds)
 	size_t	start;
 
 	start = get_current_time() + milliseconds;
-	// while (1)
-	// {
-	// 	if ((get_current_time() - start) >= milliseconds)
-	// 		break ;
-	// 	usleep(50);
-	// }
 	while (get_current_time() < start)
 		usleep(100);
 	return (0);

@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:18:24 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/24 10:17:41 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/03 11:31:08 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,9 +48,9 @@ int	ft_atoi(const char *str)
 	unsigned long	number;
 	int				sign;
 
-	i = 0;
-	number = 0;
-	sign = 1;
+	(1) && (i = 0, number = 0, sign = 1);
+	if (!str || (str[i] == '+' && str[i + 1] == '\0'))
+		return (-1);
 	while (str[i] == 32 || (str[i] >= 9 && str[i] <= 13))
 		i++;
 	if (str[i] == '-' || str[i] == '+')
@@ -64,6 +64,8 @@ int	ft_atoi(const char *str)
 		number = number * 10 + (str[i] - 48);
 		i++;
 	}
+	if (str[i] == '+' || str[i] == '-')
+		return (-1);
 	if ((sign == 1 && number > 2147483647))
 		return (-1);
 	return (number * sign);
@@ -106,6 +108,8 @@ int	init_data(t_data *data, char **av)
 	num = ft_strtrim(av[1], " ");
 	data->philos_number = ft_atoi(num);
 	free(num);
+	if (data->philos_number < 1)
+		return (0);
 	num = ft_strtrim(av[2], " ");
 	data->time_to_die = ft_atoi(num);
 	free(num);
@@ -115,11 +119,9 @@ int	init_data(t_data *data, char **av)
 	num = ft_strtrim(av[4], " ");
 	data->time_to_sleep = ft_atoi(num);
 	free(num);
-	if (av[5])
-	{
-		num = ft_strtrim(av[5], " ");
-		data->number_of_meals = ft_atoi(num);
-		free(num);
-	}
+	if (av[5] && meals_arg_set(av[5], data) == 0)
+		return (0);
+	if (check_negative_data(data) == 0)
+		return (0);
 	return (1);
 }

@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:59:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/04/30 16:20:40 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/03 11:54:01 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,15 @@ void	*program_monitoring(void *arg)
 	philo = (t_philo *)arg;
 	while (1)
 	{
-			sem_wait(philo->lock_sem);
-			if (philo->time_to_die < get_current_time() - philo->last_time_meal)
-			{
-				sem_wait(philo->data->print_sem);
-				printf("%lu %d died\n", get_current_time() - philo->start_time, philo->id);
-				sem_post(philo->data->death);
-			}
-			sem_post(philo->lock_sem);
+		sem_wait(philo->lock_sem);
+		if (philo->time_to_die < get_current_time() - philo->last_time_meal)
+		{
+			sem_wait(philo->data->print_sem);
+			printf("%lu %d died\n", get_current_time() \
+			- philo->start_time, philo->id);
+			sem_post(philo->data->death);
+		}
+		sem_post(philo->lock_sem);
 	}
 	return (NULL);
 }
@@ -34,7 +35,7 @@ void	*program_monitoring(void *arg)
 void	*routine(void *arg)
 {
 	pthread_t	monitor;
-	t_philo	*philo;
+	t_philo		*philo;
 
 	philo = (t_philo *)arg;
 	philo->philo = fork();
@@ -44,10 +45,11 @@ void	*routine(void *arg)
 		pthread_detach(monitor);
 		while (1)
 		{
-			if (philo->meals_limit > -1 && philo->meals_num == philo->meals_limit)
-			{
+			if (philo->meals_limit > -1
+				&& philo->meals_num == philo->meals_limit)
 				sem_post(philo->data->limit);
-			}
+			if (philo->meals_limit == 0)
+				break ;
 			eat(philo);
 			philo_sleep(philo);
 			philo_think(philo);
@@ -80,16 +82,18 @@ int	start(t_data *data, t_philo *philos)
 	id = 0;
 	while (id < data->philos_number)
 	{
-		if (pthread_create(&philos[id].thread, NULL, &routine, (void *)&philos[id]) != 0)
-			printf("Failed to create thread");
+		if (pthread_create(&philos[id].thread, NULL, \
+		&routine, (void *)&philos[id]) != 0)
+			return (printf("Failed to create thread"), 1);
 		if (pthread_detach(philos[id].thread) != 0)
 			printf("Failed to detach thread");
 		id++;
 	}
 	if (philos[0].meals_limit != -1)
 	{
-		if (pthread_create(&monitor_meals, NULL, &check_meals, (void *)data) != 0)
-			printf("Failed to create thread");
+		if (pthread_create(&monitor_meals, NULL, \
+		&check_meals, (void *)data) != 0)
+			return (printf("Failed to create thread"), 1);
 		if (pthread_detach(monitor_meals) != 0)
 			printf("Failed to detach thread");
 	}

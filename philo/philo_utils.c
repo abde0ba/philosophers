@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 07:50:06 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/01 15:19:37 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/03 11:52:44 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@ void	*routine(void *args)
 		ft_usleep(philo->time_to_eat);
 	while (1)
 	{
-		if ((philo->meals_limit > -1 && philo->meals_limit == philo->meals_num) || philo->meals_limit == 0)
+		if ((philo->meals_limit > -1 && philo->meals_limit == philo->meals_num)
+			|| philo->meals_limit == 0)
 			return (args);
 		eat(philo);
 		philo_sleep(philo);
@@ -41,7 +42,8 @@ int	program_monitoring(t_data *data, t_philo *philos)
 		while (i < data->philos_number)
 		{
 			pthread_mutex_lock(philos[i].meals_check);
-			if (data->finished == data->philos_number || philos[i].meals_limit == 0)
+			if (data->finished == data->philos_number
+				|| philos[i].meals_limit == 0)
 				return (pthread_mutex_lock(philos[i].print_m), 0);
 			pthread_mutex_unlock(philos[i].meals_check);
 			pthread_mutex_lock(&philos[i].lock_m);
@@ -67,7 +69,7 @@ int	start(t_data *data, t_philo *philos)
 	{
 		if (pthread_create(&philos[id].philo, NULL, \
 		&routine, (void *)&philos[id]) != 0)
-			printf("thread N %d failed in creation\n", id + 1);
+			return (printf("thread N %d failed in creation\n", id + 1), 0);
 		id++;
 	}
 	if (program_monitoring(data, philos) == 0)
@@ -79,7 +81,7 @@ int	start(t_data *data, t_philo *philos)
 				printf("thread N %d failed in joining\n", id + 1);
 			id++;
 		}
-		mutex_destroy_all(data, philos);
+		mutex_destroy_all(data, philos, -1);
 		return (1);
 	}
 	return (1);
@@ -99,10 +101,7 @@ int	init_each_philo(t_data *data, t_philo *philos, int id, t_mutex *mutex)
 	philos[id].data = data;
 	philos[id].last_time_meal = get_current_time();
 	if (init_mutex_philos(&philos[id], mutex) != 0)
-	{
-		mutex_destroy_philos(philos, id, mutex);
 		return (1);
-	}
 	mutex[id].num = id + 1;
 	philos[id].left_fork = &(mutex[id].mutex);
 	if (id == (data->philos_number - 1))
@@ -121,8 +120,11 @@ int	philos_init(t_data *data, t_philo *philos, t_mutex *mutex)
 	id = 0;
 	while (id < data->philos_number)
 	{
-		if (init_each_philo(data, philos, id, mutex) == 1)
+		if (init_each_philo(data, philos, id, mutex) != 0)
+		{
+			mutex_destroy_all(data, philos, id);
 			return (1);
+		}
 		id++;
 	}
 	return (0);

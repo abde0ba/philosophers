@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 02:08:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/01 12:05:47 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/03 10:46:30 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 # include <stdlib.h>
 # include <pthread.h>
 # include <sys/time.h>
+
+// #define malloc(x) NULL
 
 typedef struct s_data
 {
@@ -70,13 +72,14 @@ int		start(t_data *data, t_philo *philos);
 int		get_current_time(void);
 int		ft_usleep(size_t milliseconds);
 void	print_msg(t_philo *philo, char *msg);
+int		check_negative_data(t_data *data);
+int		meals_arg_set(char *arg, t_data *data);
 
 // 		MUTEX UTILS		 //
 
 int		init_mutex_data(t_data *data);
 int		init_mutex_philos(t_philo *philos, t_mutex *mutex);
-int		mutex_destroy_philos(t_philo *philos, int id, t_mutex *mutex);
-int		mutex_destroy_all(t_data *data, t_philo *philos);
+int		mutex_destroy_all(t_data *data, t_philo *philos, int limit);
 
 // 		ROUTINE UTILS	//
 

@@ -6,6 +6,10 @@
 		"philo_bonus.h": "c",
 		"__locale": "c",
 		"locale": "c",
-		"signal.h": "c"
+		"signal.h": "c",
+		"__functional_03": "c",
+		"memory_resource": "c",
+		"functional": "c",
+		"memory": "c"
 	}
 }

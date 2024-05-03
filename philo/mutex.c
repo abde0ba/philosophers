@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 08:53:20 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/01 12:05:36 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/02 10:44:26 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,25 +52,14 @@ int	init_mutex_philos(t_philo *philo, t_mutex *mutex)
 	return (0);
 }
 
-int	mutex_destroy_philos(t_philo *philos, int id, t_mutex *mutex)
+int	mutex_destroy_all(t_data *data, t_philo *philos, int limit)
 {
 	int	i;
 
 	i = 0;
-	while (i < id)
-	{
-		init_mutex_philos(&philos[i], mutex);
-		i++;
-	}
-	return (0);
-}
-
-int	mutex_destroy_all(t_data *data, t_philo *philos)
-{
-	int	i;
-
-	i = 0;
-	while (i < data->philos_number)
+	if (limit == -1)
+		limit = data->philos_number;
+	while (i < limit)
 	{
 		mutex_destroy(philos[i].lock_m);
 		mutex_destroy(*philos[i].left_fork);

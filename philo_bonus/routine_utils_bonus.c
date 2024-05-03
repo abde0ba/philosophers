@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 08:55:35 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/01 13:20:07 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/01 15:55:28 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ void	philo_sleep(t_philo *philo)
 
 void	eat(t_philo *philo)
 {
+	if (philo->meals_limit == 0)
+		return ;
 	take_forks(philo);
 	print_msg(philo, "is eating");
 	sem_wait(philo->lock_sem);
