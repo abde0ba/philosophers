@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 14:56:19 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/02 14:56:20 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/05 15:00:41 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,11 +86,12 @@ size_t	ft_usleep(size_t milliseconds);
 void	print_msg(t_philo *philo, char *msg);
 int		meals_arg_set(char *arg, t_data *data);
 int		check_negative_data(t_data *data);
-void	unlink_semaphore_data(void);
 
 // 		SEMAPHORE UTILS		 //
 int		init_sem_data(t_data *data);
 void	destroy_semaphore_and_end_program(t_data *data);
+void	close_semaphore(t_data *data);
+void	unlink_semaphore_data(void);
 // 		ROUTINE UTILS	//
 
 void	eat(t_philo *philo);

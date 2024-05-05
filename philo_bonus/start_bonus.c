@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:59:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/03 11:54:01 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/05 15:04:29 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,8 +85,7 @@ int	start(t_data *data, t_philo *philos)
 		if (pthread_create(&philos[id].thread, NULL, \
 		&routine, (void *)&philos[id]) != 0)
 			return (printf("Failed to create thread"), 1);
-		if (pthread_detach(philos[id].thread) != 0)
-			printf("Failed to detach thread");
+		pthread_detach(philos[id].thread);
 		id++;
 	}
 	if (philos[0].meals_limit != -1)
@@ -94,8 +93,7 @@ int	start(t_data *data, t_philo *philos)
 		if (pthread_create(&monitor_meals, NULL, \
 		&check_meals, (void *)data) != 0)
 			return (printf("Failed to create thread"), 1);
-		if (pthread_detach(monitor_meals) != 0)
-			printf("Failed to detach thread");
+		pthread_detach(monitor_meals);
 	}
 	destroy_semaphore_and_end_program(data);
 	return (0);

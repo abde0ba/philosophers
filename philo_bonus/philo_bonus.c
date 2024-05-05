@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 10:36:17 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/03 11:49:17 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/05 15:09:02 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,13 @@ int	main(int ac, char **av)
 	philos = malloc(data->philos_number * sizeof(t_philo));
 	forks_sem = sem_open("/forks_sem", O_CREAT, 0644, data->philos_number);
 	if (!philos)
-		return (sem_close(forks_sem), unlink_semaphore_data(),
+		return (close_semaphore(data), unlink_semaphore_data(),
 			free(data), free(philos), 1);
 	if (philos_init(data, philos, forks_sem) != 0)
 		return (free(data), free(philos), 1);
 	data->philos = philos;
 	if (start(data, philos) != 0)
-		return (unlink_semaphore_data(), free(data), free(philos), 1);
+		return (close_semaphore(data), unlink_semaphore_data(),
+			free(data), free(philos), 1);
 	return (free(data), free(philos), 0);
 }
