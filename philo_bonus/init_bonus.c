@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:54:36 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/05 15:09:19 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/05 23:28:17 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,12 +71,18 @@ int	philos_init(t_data *data, t_philo *philos, sem_t *forks_sem)
 
 void	close_semaphore(t_data *data)
 {
-	sem_close(data->death);
-	sem_close(data->print_sem);
-	sem_close(data->lock_s);
-	sem_close(data->meals_check);
-	sem_close(data->limit);
-	sem_close(data->philos[0].forks);
+	if (sem_close(data->death) < 0)
+		dprintf(2, "error\n");
+	if (sem_close(data->print_sem) < 0)
+		dprintf(2, "error\n");
+	if (sem_close(data->lock_s) < 0)
+		dprintf(2, "error\n");
+	if (sem_close(data->meals_check) < 0)
+		dprintf(2, "error\n");
+	if (sem_close(data->limit) < 0)
+		dprintf(2, "error\n");
+	if (sem_close(data->philos[0].forks) < 0)
+		dprintf(2, "error\n");
 }
 
 void	destroy_semaphore_and_end_program(t_data *data)
@@ -84,13 +90,13 @@ void	destroy_semaphore_and_end_program(t_data *data)
 	int	id;
 
 	sem_wait(data->death);
-	close_semaphore(data);
 	sem_unlink("/forks_sem");
 	sem_unlink("/lock_sem");
 	sem_unlink("/meals_check");
 	sem_unlink("/print_sem");
 	sem_unlink("/death");
 	sem_unlink("/limit");
+	close_semaphore(data);
 	id = 0;
 	while (id < data->philos_number)
 	{

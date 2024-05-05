@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:59:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/05 15:04:29 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/05 23:32:35 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,11 @@ void	*routine(void *arg)
 	philo = (t_philo *)arg;
 	philo->philo = fork();
 	if (!philo->philo)
+		return (NULL);
+	if (!philo->philo)
 	{
-		pthread_create(&monitor, NULL, &program_monitoring, arg);
+		if (pthread_create(&monitor, NULL, &program_monitoring, arg) != 0)
+			printf("Error in creating monitor thread\n");
 		pthread_detach(monitor);
 		while (1)
 		{
