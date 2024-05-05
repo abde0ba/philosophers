@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:54:36 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/05 23:28:17 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/05 23:36:20 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,13 +90,13 @@ void	destroy_semaphore_and_end_program(t_data *data)
 	int	id;
 
 	sem_wait(data->death);
+	close_semaphore(data);
 	sem_unlink("/forks_sem");
 	sem_unlink("/lock_sem");
 	sem_unlink("/meals_check");
 	sem_unlink("/print_sem");
 	sem_unlink("/death");
 	sem_unlink("/limit");
-	close_semaphore(data);
 	id = 0;
 	while (id < data->philos_number)
 	{
