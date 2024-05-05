@@ -6,7 +6,7 @@
 #    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/01 22:06:46 by abbaraka          #+#    #+#              #
-#    Updated: 2024/05/03 11:00:54 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/05/05 11:44:28 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ RM= rm -rf
 $(NAME): $(OBJS)
 		$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
 
-%.o : %.c $(HEADER)
+%.o : %.c $(HEADER) Makefile
 		$(CC) $(CFLAGS) -c $< -o $@
 
 all : $(NAME)
