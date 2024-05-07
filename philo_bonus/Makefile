@@ -6,13 +6,13 @@
 #    By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/03 19:38:08 by abbaraka          #+#    #+#              #
-#    Updated: 2024/05/03 19:38:09 by abbaraka         ###   ########.fr        #
+#    Updated: 2024/05/07 00:31:05 by abbaraka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME= philo_bonus
 
-SRCS= philo_bonus.c utils_bonus.c utils1_bonus.c utils2_bonus.c init_bonus.c start_bonus.c routine_utils_bonus.c time_bonus.c
+SRCS= philo_bonus.c utils_bonus.c utils1_bonus.c utils2_bonus.c init_bonus.c start_bonus.c routine_utils_bonus.c time_bonus.c print_bonus.c
 
 OBJS= $(SRCS:.c=.o)
 

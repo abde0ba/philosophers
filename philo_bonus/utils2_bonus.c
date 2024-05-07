@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 23:31:52 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/03 10:32:33 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/07 00:30:39 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,12 @@ int	check_int(char **av)
 void	print_msg(t_philo *philo, char *msg)
 {
 	sem_wait(philo->data->print_sem);
-	printf("%lu %d %s\n", get_current_time() \
-	- philo->start_time, philo->id, msg);
+	ft_putnbr_fd((int)(get_current_time() - philo->start_time), 1);
+	ft_putstr_fd(" ", 1);
+	ft_putnbr_fd(philo->id, 1);
+	ft_putstr_fd(" ", 1);
+	ft_putstr_fd(msg, 1);
+	ft_putstr_fd("\n", 1);
 	sem_post(philo->data->print_sem);
 }
 

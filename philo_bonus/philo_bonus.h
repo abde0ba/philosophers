@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 14:56:19 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/05 15:00:41 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/07 00:31:43 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,9 @@ typedef struct s_mutex
 	pthread_mutex_t	mutex;
 }			t_mutex;
 
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 int		err_args(void);
 int		init_data(t_data *data, char **av);
 char	*ft_strtrim(char const *s1, char const *set);
