@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 12:59:30 by abbaraka          #+#    #+#             */
-/*   Updated: 2024/05/07 00:36:15 by abbaraka         ###   ########.fr       */
+/*   Updated: 2024/05/07 02:44:29 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ void	*check_meals(void *arg)
 		sem_wait(data->limit);
 		i++;
 	}
+	sem_wait(data->print_sem);
 	sem_post(data->death);
 	return (NULL);
 }
